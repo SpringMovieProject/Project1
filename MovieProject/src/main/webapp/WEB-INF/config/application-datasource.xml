@@ -28,5 +28,5 @@
 		p:dataSource-ref="ds"
 	/>
 	<!-- 한번에 추가 가능함 com.sist.* -->
-<!-- 	<mybatis-spring:scan base-package="com.sist.mapper"/> -->
+	<mybatis-spring:scan base-package="com.sist.mapper"/>
 </beans>
