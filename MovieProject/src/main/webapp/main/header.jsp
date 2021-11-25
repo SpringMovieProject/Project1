@@ -21,21 +21,24 @@
           </button>
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item active"><a class="nav-link" href="index.html">홈</a></li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Shop</a>
+                  aria-expanded="false">장르</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
-                  <li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
-                  <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
-                  <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
-                  <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">드라마</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">멜로/로맨스</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">액션</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">판타지</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">애니메이션</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">코미디</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">뮤지컬</a></li>
                 </ul>
 							</li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Blog</a>
+                  aria-expanded="false">블로그
+                  </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                   <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
@@ -43,7 +46,7 @@
 							</li>
 							<li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Pages</a>
+                  aria-expanded="false">게시판</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
                   <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>

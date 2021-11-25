@@ -21,7 +21,9 @@ public class MainController {
    public String main_main(Model model)
    {
 	   List<MovieVO> list=dao.movieMainListData();
+	   List<MovieVO> clist=dao.movieMainListData2();
 	   model.addAttribute("list",list);
+	   model.addAttribute("clist",clist);
 	   model.addAttribute("main_jsp", "../main/home.jsp");
 	   return "main/main";
    }

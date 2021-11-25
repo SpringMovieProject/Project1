@@ -9,6 +9,7 @@ import com.sist.vo.*;
 @Repository
 public class MovieDAO {
 	@Autowired
+	private MainMapper mainmapper;
 	private MovieMapper mapper;
 	
 	public List<MovieVO> movieListData(Map map)
@@ -18,7 +19,12 @@ public class MovieDAO {
 	
 	public List<MovieVO> movieMainListData()
 	{
-		return mapper.movieMainListData();
+		return mainmapper.movieMainListData();
+	}
+	
+	public List<MovieVO> movieMainListData2()
+	{
+		return mainmapper.movieMainListData2();
 	}
 	
 	public int movieTotalPage()
